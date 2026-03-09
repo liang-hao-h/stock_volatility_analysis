@@ -16,12 +16,8 @@ price movements and volatility levels.
 - Save data and plots for documentation
 
 📁 Project Structure
-stock_volatility_analysis/
-├── chapter.ipynb          # Jupyter Notebook with full analysis
-├── README.md              # This file
-├── requirements.txt       # Required Python packages
-└── week1/
-    └── ch1_im6.png        # Generated visualization of returns and volatility
+<img width="759" height="177" alt="image" src="https://github.com/user-attachments/assets/64bbab79-ad8a-4114-8780-e9dbc51c178a" />
+
 
 🛠️ Installation
 1. Clone the repository:
