@@ -1,44 +1,47 @@
-\# Monthly Realized Volatility Analysis for Stock Prices
+Stock Volatility Analysis 📊
+
+This project analyzes the realized volatility of Apple Inc. (AAPL) stock prices using historical data from Yahoo Finance. 
+It calculates daily logarithmic returns, computes monthly realized volatility, and visualizes the relationship between
+price movements and volatility levels.
+
+<img width="86" height="20" alt="image" src="https://github.com/user-attachments/assets/1c6aa145-8aca-4825-8c69-2d02a743c6b1" />
+<img width="82" height="20" alt="image" src="https://github.com/user-attachments/assets/36e44449-4dde-4165-b93a-23f6dff466fe" />
+<img width="116" height="20" alt="image" src="https://github.com/user-attachments/assets/28c96369-f770-49cf-9424-1cdcd9d1ee1b" />
+
+🚀 Features
+- Download historical stock data using yfinance
+- Calculate daily logarithmic returns
+- Compute monthly realized volatility and annualize it
+- Visualize returns and volatility using matplotlib
+- Save data and plots for documentation
+
+📁 Project Structure
+<img width="759" height="177" alt="image" src="https://github.com/user-attachments/assets/64bbab79-ad8a-4114-8780-e9dbc51c178a" />
 
 
+🛠️ Installation
+1. Clone the repository:
+ git clone https://github.com/liang-hao-h/stock_volatility_analysis.git
+ 
+ cd stock_volatility_analysis
 
-\## Project Overview
+2. Install dependencies:
+ 
+ pip install -r requirements.txt
 
-This small project focuses on financial time series analysis, specifically calculating:
+📝 Usage
+1. Open the Jupyter Notebook:
+ jupyter notebook chapter.ipynb
 
-\- Daily logarithmic returns of stock prices (adjusted closing prices)
+2. Run all cells sequentially to:
+  - Download AAPL data (2010-2020)
+  - Calculate log returns
+  - Compute and visualize volatility
+  - Save the plot to week1/ch1_im6.png
 
-\- Monthly realized volatility based on daily returns
-
-\- Annualized volatility conversion for cross-period comparison
-
-\- Visualization of the relationship between stock price trends and volatility changes
-
-
-
-The analysis is implemented in a Jupyter Notebook, making it easy to run step-by-step and visualize intermediate results.
-
-
-
-\## Key Features
-
-\- Data source: Yahoo Finance (via `yfinance` library)
-
-\- Core metrics: Log returns, realized volatility (RV), annualized volatility
-
-\- Visualization: Dual subplots comparing price trends and volatility
-
-\- Data cleaning: Handling missing values, column renaming, and time-based grouping
+<img width="436" height="441" alt="image" src="https://github.com/user-attachments/assets/ca46c865-ea59-4e76-a9df-4653a70aef2d" />
 
 
-
-\## Prerequisites
-
-\### 1. Install Required Libraries
-
-Run the following command in your terminal/command prompt to install dependencies:
-
-```bash
-
-pip install pandas numpy matplotlib yfinance jupyter
-
+📈 Results
+The analysis produces a dual plot:
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/a6c85027-bc5f-4f62-b0fd-04320689b522" />
