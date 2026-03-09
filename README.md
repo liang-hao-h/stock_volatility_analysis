@@ -21,15 +21,17 @@ price movements and volatility levels.
 
 🛠️ Installation
 1. Clone the repository:
-git clone https://github.com/liang-hao-h/stock_volatility_analysis.git
-cd stock_volatility_analysis
+ git clone https://github.com/liang-hao-h/stock_volatility_analysis.git
+ 
+ cd stock_volatility_analysis
 
 2. Install dependencies:
-pip install -r requirements.txt
+ 
+ pip install -r requirements.txt
 
 📝 Usage
 1. Open the Jupyter Notebook:
-jupyter notebook chapter.ipynb
+ jupyter notebook chapter.ipynb
 
 2. Run all cells sequentially to:
   - Download AAPL data (2010-2020)
